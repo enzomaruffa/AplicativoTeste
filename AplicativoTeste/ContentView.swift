@@ -13,6 +13,11 @@ struct ContentView: View {
             VStack (alignment: .leading) {
                 Text("Hello, Enzo!")
                 Text("Vídeo curto sobre Git!")
+                NavigationLink(
+                    destination: SegundaTela(),
+                    label: {
+                        Text("Ir para a segunda tela")
+                    })
             }.padding()
         }.navigationTitle("Tela Principal")
     }
