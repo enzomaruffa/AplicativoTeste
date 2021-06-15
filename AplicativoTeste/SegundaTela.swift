@@ -9,7 +9,12 @@ import SwiftUI
 
 struct SegundaTela: View {
     var body: some View {
-        Text("Eu sou a segunda tela!")
+        VStack(alignment: .center) {
+            Text("Eu sou a segunda tela!")
+                .bold()
+            Text("Eu faço parte da segunda tela")
+            Text("Eu também!")
+        }
     }
 }
 
