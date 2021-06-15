@@ -9,8 +9,12 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, Enzo!")
-            .padding()
+        NavigationView {
+            VStack (alignment: .leading) {
+                Text("Hello, Enzo!")
+                Text("Vídeo curto sobre Git!")
+            }.padding()
+        }.navigationTitle("Tela Principal")
     }
 }
 
